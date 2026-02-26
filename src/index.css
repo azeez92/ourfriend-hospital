@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+html,
+body {
+  font-family: roboto, helvetica neue, helvetica, san-serif;
+}
+
+overflow-x-hidden.flex.h-full.snap-mandatory.overflow-y-hidden.overflow-x-scroll.scroll-smooth.rounded-lg.snap-x.overflow-hidden.\!overflow-x-hidden.\[scrollbar-width\:none\].\[\&\:\:-webkit-scrollbar\]\:\[-webkit-appearance\:none.\!important\].\[\&\:\:-webkit-scrollbar\]\:\!hidden.\[\&\:\:-webkit-scrollbar\]\:\!h-0.\[\&\:\:-webkit-scrollbar\]\:\!w-0.\[\&\:\:-webkit-scrollbar\]\:\!bg-transparent {
+    overflow-x: hidden !important
+    ;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Lato, sans-serif;
+}
+
+
+
+.service:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0.733), rgba(0, 0, 255, 0.678)), 
+              url('src/assets/bg-emergency.jpg') center / cover;
+}
+
+
+.menu ul{
+  align-items: center;
+} 
