@@ -1,7 +1,7 @@
 import React from 'react'
 
 import AboutUs_Welcome from '../Components/AboutUs_Welcome'
-import PageBanner from '../Components/PageBanner'
+import PageBanner from '../components/PageBanner'
 import about from "../assets/about-us.jpg.jpeg"
 import AboutUs_M_V from '../Components/AboutUs_M&V'
 import AboutUs_Values from '../Components/AboutUs_Values'

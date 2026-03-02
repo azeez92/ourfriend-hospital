@@ -11,6 +11,12 @@ import Preloader from "./components/Preloader"
 import Career from "./pages/Career"
 import Hmo from "./pages/Hmo"
 import Team from "./pages/Team"
+import Faq from "./pages/Faq"
+import Appointment from "./pages/Appointment"
+import TermsAndClinic from "./pages/Terms"
+import HelpCenter from "./pages/HelpCenter.jsx"
+import Sitemap from "./pages/Sitemap.jsx"
+import Founder from "./pages/Founder.jsx"
 
 
 function App(){
@@ -45,6 +51,15 @@ if(loading){
 <Route path="/career" element={<Career />} />
 <Route path="/hmo" element={<Hmo />} />
 <Route path="/team" element={<Team />} />
+<Route path="/faq" element={<Faq />} />
+<Route path="/appointment" element={<Appointment />} />
+<Route path="/news" element={<News />} />
+<Route path="/terms" element={<TermsAndClinic />} />
+<Route path="/helpcenter" element={<HelpCenter />} />
+<Route path="/sitemap" element={<Sitemap />} />
+<Route path="/hmo" element={<Hmo />} />
+<Route path="/founder" element={<Founder />} />
+
 
 
 

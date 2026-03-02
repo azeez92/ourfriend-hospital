@@ -6,5 +6,6 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  darkMode: "class",
   plugins: [react(), tailwindcss(), flowbiteReact()],
 })
